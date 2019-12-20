@@ -1,0 +1,46 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+main{
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  background-color: #390040;
+  padding: 1%;
+  color: #6FEDB7;
+  font-size: 2em;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-bar {
+  background-color: #730071;
+  display: flex;
+  justify-content: space-around;
+  margin: 1%;
+  border-radius: 10px;
+  padding: .5%;
+  color: #2DD881;
+  font-size: .65em;
+}
+
+.nav-items {
+  padding:.5%;
+  cursor: pointer;
+}
+
+.nav-selected {
+  background-color: #2DD881;
+  color: #730071;
+  font-size: 1.25em;
+}
