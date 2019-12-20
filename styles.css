@@ -55,3 +55,12 @@ nav {
   padding: 1.5%;
   font-size: 3em;
 }
+
+.image-container {
+  display: flex;
+}
+
+img {
+  display: block;
+  width: 30%;
+}
